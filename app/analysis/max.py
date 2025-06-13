@@ -1,6 +1,14 @@
 import pandas as pd
 
 
-# Documentation
 def compute(series: pd.Series) -> float:
-  return series.max()
+    """Compute the max of a pandas Series.
+    
+    Args:
+        series (pd.Series): Input series to compute the max.
+
+    Returns:
+        float: The max of the series.
+    
+    """
+    return series.max()
